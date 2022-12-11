@@ -1,0 +1,49 @@
+@media (min-width: 1025px) and (max-width: 7680px) {
+    .contenedor-animes {
+        display: flex;
+        justify-content: center;
+    }
+
+    .anime {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .vermas-anime {
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .contenedor-juegos {
+        margin-right: 0;
+        gap: 30px;
+    }
+
+    .juegos {
+        width: 100%;
+        height: 100%;
+    }
+
+    .vermas-juegos {
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 1817px) {
+    main {
+        width: 1817px;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+
+    #world-trigger, #black-lagoon {
+        display: none;
+    }
+
+    #text-world-trigger, #text-black-lagoon {
+        display: none;
+    }
+}

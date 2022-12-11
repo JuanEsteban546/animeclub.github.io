@@ -1,0 +1,40 @@
+/* 768px-1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+    main {
+        display: block;
+    }
+
+    .contenedor-animes {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .anime {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .vermas-anime {
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .contenedor-juegos {
+        width: 100%;
+        padding: 60px;
+    }
+
+    .juegos {
+        width: 100%;
+        height: 100%;
+    }
+
+    .vermas-juegos {
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
+}
